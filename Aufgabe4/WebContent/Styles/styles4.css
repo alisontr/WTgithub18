@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+body {
+ background-color: #FF5F00; /* HTW-orange */
+ font-size:1rem;
+ font-family: 'Times New Roman', sans-serif;
+}
+
+#oben{background-color: #AFAFAF; color: white;}
+#links{background-color: #848484;color: white;}
+#mitte{background-color: #AFAFAF;color: white;}
+#rechts{background-color: #848484; color:white;}
+#unten{background-color: #AFAFAF;}
+
+@media screen and (min-width: 480px) {
+	
+p,h1{
+	padding: 10px;
+}
+
+
+ body {
+ 
+ background-color: #81BEF7; /* HTW-blau */
+ font-size:1.2rem;
+ }
+
+
+
+
+
+#oben, #unten {
+	background-color: #F5A9A9;
+	}
+
+#links{
+	background-color:#F7819F;
+	color: white;
+	flex:1;
+	}
+
+#rechts{
+	background-color:#F7819F;
+	color: white;
+	flex:2;
+	}
+
+#mitte{
+	background-color: #BC8F8F;
+	color: white;
+	flex:4;
+	}
+	
+	
+	.flex-container{
+	display: flex;
+	background-color: #AFAFAF;
+	
+	}
+}
+	

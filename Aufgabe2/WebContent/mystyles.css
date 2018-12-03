@@ -1,0 +1,81 @@
+body, html{
+  height: 100%;
+}
+
+.bg{
+  background-image: url("http://cdn.osxdaily.com/wp-content/uploads/2017/06/macos-high-sierra-default-wallpaper-fall-mountain-scene-1-610x344.jpg");
+
+height: 100%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+*{
+  font-family: Verdana;
+}
+
+section>h2{
+  font-variant: : small-caps;
+}
+
+header{
+  font-variant: small-caps;
+  background-color: #AFAFAF;
+  color: #FF5F00;
+  text-align: center;
+  font-size: 2em;
+}
+
+th{
+  background-color: #76B900;
+  color: #FFF;
+}
+
+th, td{
+  padding: 5px;
+}
+
+table, th, td{
+  border: 1px solid #555;
+}
+
+table{
+  border-collapse: collapse;
+  box-shadow: 10px 10px 5px darkgrey;
+  max-width: 80%;
+}
+
+nav{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+nav a{
+  background-color: #0082D1;
+  color: #FFF;
+  font-weight: bold;
+  border: 1px solid #555;
+  border-radius: 25px;
+  margin: 5px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  background-color: #AFAFAF;
+  color: #FF5F00;
+}
+
+
+footer{
+  background-color: #FF5F00;
+  color: #000;
+  text-align: center;
+  font-size: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+
+}
